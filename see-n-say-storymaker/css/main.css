@@ -1,0 +1,62 @@
+/* General styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        to right, 
+        #FF5733 16.66%, 
+        #FFBD33 16.66%, #FFBD33 33.33%, 
+        #FFFF33 33.33%, #FFFF33 50%, 
+        #33FF57 50%, #33FF57 66.66%, 
+        #335BFF 66.66%, #335BFF 83.33%, 
+        #A833FF 83.33% 
+    );
+}
+
+/* Title styling */
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #070707a7;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Button container */
+button {
+    width: 200px;
+    padding: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #070707a7;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Arrange buttons in one row */
+/* button {
+    display: inline-block;
+} */
+
+/* Button styling */
+button:nth-child(2) { background-color: rgba(255, 87, 51, 0.8); } 
+button:nth-child(3) { background-color: rgba(255, 189, 51, 0.8); } 
+button:nth-child(4) { background-color: rgba(255, 255, 51, 0.8); } 
+button:nth-child(5) { background-color: rgba(51, 255, 87, 0.8); } 
+button:nth-child(6) { background-color: rgba(51, 91, 255, 0.8); } 
+button:nth-child(7) { background-color: rgba(168, 51, 255, 0.8); } 
+
+/* Hover effect */
+button:hover {
+    transform: scale(1.05);
+}
